@@ -1,0 +1,155 @@
+Algoritma Neural Network
+Data Hipertensi
+Umur	Kegemukan	Hipertensi
+0			0			0			
+0			1			0			
+1			0			0			
+1			2			1			
+2			2			1			
+
+Threshold : 0
+
+Random nilai w : 
+w0 : 0.9
+w1 : -0.3
+w2 : -0.2
+
+Iterasi ke-1
+Data ke-0
+Perhitungan		: -0.2
+Hasil Threshold	: 0
+Error			: 0
+Data ke-1
+Perhitungan		: -0.5
+Hasil Threshold	: 0
+Error			: 0
+Data ke-2
+Perhitungan		: 0.7
+Hasil Threshold	: 1
+Error			: -1
+
+Nilai W baru : 
+w0 : 0.6
+w1 : -0.3
+w2 : -0.5
+
+Data ke-3
+Perhitungan		: -0.5
+Hasil Threshold	: 0
+Error			: 1
+
+Nilai W baru : 
+w0 : 0.9
+w1 : 0.3
+w2 : -0.2
+
+Data ke-4
+Perhitungan		: 2.2
+Hasil Threshold	: 1
+Error			: 0
+
+Iterasi ke-2
+Data ke-0
+Perhitungan		: -0.2
+Hasil Threshold	: 0
+Error			: 0
+Data ke-1
+Perhitungan		: 0.1
+Hasil Threshold	: 1
+Error			: -1
+
+Nilai W baru : 
+w0 : 0.9
+w1 : 0.0
+w2 : -0.5
+
+Data ke-2
+Perhitungan		: 0.4
+Hasil Threshold	: 1
+Error			: -1
+
+Nilai W baru : 
+w0 : 0.6
+w1 : 0.0
+w2 : -0.8
+
+Data ke-3
+Perhitungan		: -0.2
+Hasil Threshold	: 0
+Error			: 1
+
+Nilai W baru : 
+w0 : 0.9
+w1 : 0.6
+w2 : -0.5
+
+Data ke-4
+Perhitungan		: 2.5
+Hasil Threshold	: 1
+Error			: 0
+
+Iterasi ke-3
+Data ke-0
+Perhitungan		: -0.5
+Hasil Threshold	: 0
+Error			: 0
+Data ke-1
+Perhitungan		: 0.1
+Hasil Threshold	: 1
+Error			: -1
+
+Nilai W baru : 
+w0 : 0.9
+w1 : 0.3
+w2 : -0.8
+
+Data ke-2
+Perhitungan		: 0.1
+Hasil Threshold	: 1
+Error			: -1
+
+Nilai W baru : 
+w0 : 0.6
+w1 : 0.3
+w2 : -1.1
+
+Data ke-3
+Perhitungan		: 0.1
+Hasil Threshold	: 1
+Error			: 0
+Data ke-4
+Perhitungan		: 0.7
+Hasil Threshold	: 1
+Error			: 0
+
+Iterasi ke-4
+Data ke-0
+Perhitungan		: -1.1
+Hasil Threshold	: 0
+Error			: 0
+Data ke-1
+Perhitungan		: -0.8
+Hasil Threshold	: 0
+Error			: 0
+Data ke-2
+Perhitungan		: -0.5
+Hasil Threshold	: 0
+Error			: 0
+Data ke-3
+Perhitungan		: 0.1
+Hasil Threshold	: 1
+Error			: 0
+Data ke-4
+Perhitungan		: 0.7
+Hasil Threshold	: 1
+Error			: 0
+
+Total iterasi : 4
+Hasil w : 
+w0 : 0.6
+w1 : 0.3
+w2 : -1.1
+
+Jika umur : 1 dan kegemukan : 0
+Perhitungan	: -0.5
+Hipertensi	: tidak

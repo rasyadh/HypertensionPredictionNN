@@ -1,0 +1,285 @@
+Algoritma Neural Network
+Data AND
+x	y	hasil
+0	0	0	
+0	1	0	
+1	0	0	
+1	1	1	
+
+Threshold : 0
+
+Random nilai w : 
+w0 : -0.1
+w1 : -0.2
+w2 : -0.1
+
+Iterasi ke-1
+Data ke-0
+Perhitungan			: -0.1
+Hasil Threshold		: 0
+Error				: 0
+Data ke-1
+Perhitungan			: -0.3
+Hasil Threshold		: 0
+Error				: 0
+Data ke-2
+Perhitungan			: -0.2
+Hasil Threshold		: 0
+Error				: 0
+Data ke-3
+Perhitungan			: -0.4
+Hasil Threshold		: 0
+Error				: 1
+
+Nilai W baru : 
+w0 : 0.2
+w1 : 0.1
+w2 : 0.2
+
+
+Iterasi ke-2
+Data ke-0
+Perhitungan			: 0.2
+Hasil Threshold		: 1
+Error				: -1
+
+Nilai W baru : 
+w0 : 0.2
+w1 : 0.1
+w2 : -0.1
+
+Data ke-1
+Perhitungan			: 0.0
+Hasil Threshold		: 0
+Error				: 0
+Data ke-2
+Perhitungan			: 0.1
+Hasil Threshold		: 1
+Error				: -1
+
+Nilai W baru : 
+w0 : -0.1
+w1 : 0.1
+w2 : -0.4
+
+Data ke-3
+Perhitungan			: -0.4
+Hasil Threshold		: 0
+Error				: 1
+
+Nilai W baru : 
+w0 : 0.2
+w1 : 0.4
+w2 : -0.1
+
+
+Iterasi ke-3
+Data ke-0
+Perhitungan			: -0.1
+Hasil Threshold		: 0
+Error				: 0
+Data ke-1
+Perhitungan			: 0.3
+Hasil Threshold		: 1
+Error				: -1
+
+Nilai W baru : 
+w0 : 0.2
+w1 : 0.1
+w2 : -0.4
+
+Data ke-2
+Perhitungan			: -0.2
+Hasil Threshold		: 0
+Error				: 0
+Data ke-3
+Perhitungan			: -0.1
+Hasil Threshold		: 0
+Error				: 1
+
+Nilai W baru : 
+w0 : 0.5
+w1 : 0.4
+w2 : -0.1
+
+
+Iterasi ke-4
+Data ke-0
+Perhitungan			: -0.1
+Hasil Threshold		: 0
+Error				: 0
+Data ke-1
+Perhitungan			: 0.3
+Hasil Threshold		: 1
+Error				: -1
+
+Nilai W baru : 
+w0 : 0.5
+w1 : 0.1
+w2 : -0.4
+
+Data ke-2
+Perhitungan			: 0.1
+Hasil Threshold		: 1
+Error				: -1
+
+Nilai W baru : 
+w0 : 0.2
+w1 : 0.1
+w2 : -0.7
+
+Data ke-3
+Perhitungan			: -0.4
+Hasil Threshold		: 0
+Error				: 1
+
+Nilai W baru : 
+w0 : 0.5
+w1 : 0.4
+w2 : -0.4
+
+
+Iterasi ke-5
+Data ke-0
+Perhitungan			: -0.4
+Hasil Threshold		: 0
+Error				: 0
+Data ke-1
+Perhitungan			: 0.0
+Hasil Threshold		: 1
+Error				: -1
+
+Nilai W baru : 
+w0 : 0.5
+w1 : 0.1
+w2 : -0.7
+
+Data ke-2
+Perhitungan			: -0.2
+Hasil Threshold		: 0
+Error				: 0
+Data ke-3
+Perhitungan			: -0.1
+Hasil Threshold		: 0
+Error				: 1
+
+Nilai W baru : 
+w0 : 0.8
+w1 : 0.4
+w2 : -0.4
+
+
+Iterasi ke-6
+Data ke-0
+Perhitungan			: -0.4
+Hasil Threshold		: 0
+Error				: 0
+Data ke-1
+Perhitungan			: 0.0
+Hasil Threshold		: 1
+Error				: -1
+
+Nilai W baru : 
+w0 : 0.8
+w1 : 0.1
+w2 : -0.7
+
+Data ke-2
+Perhitungan			: 0.1
+Hasil Threshold		: 1
+Error				: -1
+
+Nilai W baru : 
+w0 : 0.5
+w1 : 0.1
+w2 : -1.0
+
+Data ke-3
+Perhitungan			: -0.4
+Hasil Threshold		: 0
+Error				: 1
+
+Nilai W baru : 
+w0 : 0.8
+w1 : 0.4
+w2 : -0.7
+
+
+Iterasi ke-7
+Data ke-0
+Perhitungan			: -0.7
+Hasil Threshold		: 0
+Error				: 0
+Data ke-1
+Perhitungan			: -0.3
+Hasil Threshold		: 0
+Error				: 0
+Data ke-2
+Perhitungan			: 0.1
+Hasil Threshold		: 1
+Error				: -1
+
+Nilai W baru : 
+w0 : 0.5
+w1 : 0.4
+w2 : -1.0
+
+Data ke-3
+Perhitungan			: -0.1
+Hasil Threshold		: 0
+Error				: 1
+
+Nilai W baru : 
+w0 : 0.8
+w1 : 0.7
+w2 : -0.7
+
+
+Iterasi ke-8
+Data ke-0
+Perhitungan			: -0.7
+Hasil Threshold		: 0
+Error				: 0
+Data ke-1
+Perhitungan			: 0.0
+Hasil Threshold		: 1
+Error				: -1
+
+Nilai W baru : 
+w0 : 0.8
+w1 : 0.4
+w2 : -1.0
+
+Data ke-2
+Perhitungan			: -0.2
+Hasil Threshold		: 0
+Error				: 0
+Data ke-3
+Perhitungan			: 0.2
+Hasil Threshold		: 1
+Error				: 0
+
+Iterasi ke-9
+Data ke-0
+Perhitungan			: -1.0
+Hasil Threshold		: 0
+Error				: 0
+Data ke-1
+Perhitungan			: -0.6
+Hasil Threshold		: 0
+Error				: 0
+Data ke-2
+Perhitungan			: -0.2
+Hasil Threshold		: 0
+Error				: 0
+Data ke-3
+Perhitungan			: 0.2
+Hasil Threshold		: 1
+Error				: 0
+
+Total iterasi : 9
+Hasil w : 
+w0 : 0.8
+w1 : 0.4
+w2 : -1.0
+
